@@ -2114,6 +2114,13 @@ input, select, textarea {
 					border-top: solid 0.6em #282828;
 				}
 
+			#nav a[target='_blank']::after {
+				content: ' \f35d';
+				font-family: "Font Awesome 5 Free";
+				color: white;
+				margin: 0 3px 0 5px;
+			}
+
 /* Articles */
 
 	body > article {
